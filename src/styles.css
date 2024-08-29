@@ -1,0 +1,44 @@
+button {
+    padding: 1% 2%;
+    color: white;
+    background-color: red;
+    border-radius: 15px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+nav {
+    text-align: right;
+}
+
+.contentBox {
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 1fr;
+    gap: 30px
+}
+
+.imageContainer {
+    display: flex;
+    gap: 4rem;
+}
+
+.imageText {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+#content {
+    display: grid;
+    gap: 30px;
+}
+
+
+
