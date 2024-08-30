@@ -6,13 +6,26 @@
     <title>Document</title>
 <script defer src="main.js"></script></head>
 <body>
-    <header>
-        <nav>
-            <button id="home">Home</button>
-            <button id="menu">Menu</button>
-            <button id="contact">Contact</button>
-        </nav>
-    </header>
-    <div id="content"></div>
+    <h1>Weather App</h1>
+    <div class="buttonContainer">
+        <form id="myForm">
+            <label for="searchbar"></label>
+            <input type="text" id="searchbar" placeholder="     Search..." name="searchbar" required>
+            <button type="submit">Submit</button>
+        </form>
+        <button id="convChange">Celsius</button>
+    </div>
+    <div class="weatherContainer">
+        <div class="myLocation"><span id="myLocation"></span></div>
+        <div class="zone">Time Zone: <span id="zone"></span></div>
+        <div class="todaysWeather"><span id="todaysWeather"></span></div>
+        <div class="other">Temp: <span id="currentTemp"></span></div>
+        <div class="other">High Temp: <span id="highTemp"></span></div>
+        <div class="other">Low Temp: <span id="lowTemp"></span> </div>
+        <div class="other">Humidity: <span id="humid"></span></div>
+        <div class="other">UV Index: <span id="sunIndex"></span></div>
+
+
+    </div>
 </body>
 </html>
